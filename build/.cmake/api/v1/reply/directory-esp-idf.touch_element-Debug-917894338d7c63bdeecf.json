@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "esp-idf/touch_element",
+		"source" : "G:/esp/v5.5.5/esp-idf/components/touch_element"
+	}
+}

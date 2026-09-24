@@ -1,0 +1,38 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=G:\Espressif\tools\python\v5.5.5\venv\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 G:\Projects\ebook
+CMake Error at G:/esp/v5.5.5/esp-idf/tools/cmake/component.cmake:231 (message):
+  CMake Warning (dev) at build_properties.temp.cmake:8:
+
+    Syntax Warning in cmake code at column 106
+
+  
+
+    Argument not separated from preceding token by whitespace.
+
+  Call Stack (most recent call first):
+
+    G:/esp/v5.5.5/esp-idf/tools/cmake/scripts/component_get_requirements.cmake:3 (include)
+
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+
+
+
+  CMake Error at G:/Projects/ebook/components/tinyxml2/CMakeLists.txt:2
+  (project):
+
+    project command is not scriptable
+
+  Call Stack (most recent call first):
+
+    G:/esp/v5.5.5/esp-idf/tools/cmake/scripts/component_get_requirements.cmake:107 (include)
+    G:/esp/v5.5.5/esp-idf/tools/cmake/scripts/component_get_requirements.cmake:160 (__component_get_requirements)
+
+  
+
+
+
+Call Stack (most recent call first):
+  G:/esp/v5.5.5/esp-idf/tools/cmake/build.cmake:668 (__component_get_requirements)
+  G:/esp/v5.5.5/esp-idf/tools/cmake/project.cmake:752 (idf_build_process)
+  CMakeLists.txt:6 (project)
+
+

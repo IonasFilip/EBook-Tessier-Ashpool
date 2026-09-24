@@ -1,0 +1,2 @@
+source G:/Projects/ebook/build/bootloader/gdbinit/symbols
+source G:/Projects/ebook/build/bootloader/gdbinit/connect

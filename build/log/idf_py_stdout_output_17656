@@ -1,0 +1,23 @@
+Command: ninja size
+[0/1] C:\WINDOWS\system32\cmd.exe /C "cd /D G:\Projects\ebook\build && "D:\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" -D IDF_SIZE_TOOL=G:/Espressif/tools/python/v5.5.5/venv/Scripts/python.exe;-m;esp_idf_size -D MAP_FILE=G:/Projects/ebook/build/ebook.map -D OUTPUT_JSON= -P G:/esp/v5.5.5/esp-idf/tools/cmake/run_size_tool.cmake"
+                            Memory Type Usage Summary                             
++--------------------------------------------------------------------------------+
+| Memory Type/Section | Used [bytes] | Used [%] | Remain [bytes] | Total [bytes] |
+|---------------------+--------------+----------+----------------+---------------|
+| Flash Code          |       106190 |          |                |               |
+|    .text            |       106190 |          |                |               |
+| DIRAM               |        73915 |    21.63 |         267845 |        341760 |
+|    .text            |        57667 |    16.87 |                |               |
+|    .data            |        13848 |     4.05 |                |               |
+|    .bss             |         2400 |      0.7 |                |               |
+| Flash Data          |        51948 |          |                |               |
+|    .rodata          |        51692 |          |                |               |
+|    .appdesc         |          256 |          |                |               |
+| IRAM                |        16384 |    100.0 |              0 |         16384 |
+|    .text            |        15356 |    93.73 |                |               |
+|    .vectors         |         1028 |     6.27 |                |               |
+| RTC SLOW            |           32 |     0.39 |           8160 |          8192 |
+|    .force_slow      |           32 |     0.39 |                |               |
+| RTC FAST            |           24 |     0.29 |           8168 |          8192 |
+|    .rtc_reserved    |           24 |     0.29 |                |               |
++--------------------------------------------------------------------------------+
